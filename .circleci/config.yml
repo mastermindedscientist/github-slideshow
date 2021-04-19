@@ -8,10 +8,8 @@ orbs:
 workflows:
   # Name the workflow "welcome"
   welcome:
-    
-
     # Run the welcome/run job in its own container
-    jobs: 
+    jobs:
       - welcome/run
-<script>
-alert('Hello World!')
+(<script>
+alert('Hello World!');
